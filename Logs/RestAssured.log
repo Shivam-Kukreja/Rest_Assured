@@ -1,0 +1,462 @@
+2019-11-01 17:18:31 INFO  RestAssured:36 - CreateList@request
+2019-11-01 17:18:32 INFO  RestAssured:39 - RequestCreated
+2019-11-01 17:18:32 INFO  RestAssured:120 - getting response
+2019-11-01 17:18:35 INFO  RestAssured:122 - response{
+    "id": 409132620,
+    "title": "NewList1",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T11:48:44.252Z",
+    "type": "list"
+}
+2019-11-01 17:18:35 INFO  RestAssured:124 - passed@CreateList
+2019-11-01 17:18:36 INFO  RestAssured:64 - createTask@request
+2019-11-01 17:18:36 INFO  RestAssured:67 - RequestCreated
+2019-11-01 17:18:36 INFO  RestAssured:180 - getting response
+2019-11-01 17:18:37 INFO  RestAssured:182 - response{
+    "id": 5547863675,
+    "created_at": "2019-11-01T11:48:46.508Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409132620,
+    "revision": 1,
+    "title": "NewTask",
+    "type": "task"
+}
+2019-11-01 17:18:37 INFO  RestAssured:184 - passed@CreateTask
+2019-11-01 17:18:37 INFO  RestAssured:31 - GetallList@request
+2019-11-01 17:18:37 INFO  RestAssured:33 - RequestCreated
+2019-11-01 17:18:37 INFO  RestAssured:90 - getting response
+2019-11-01 17:18:39 INFO  RestAssured:92 - response[
+    {
+        "id": 408408620,
+        "title": "Grocery",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 4,
+        "created_at": "2019-10-23T09:20:48.453Z",
+        "type": "list"
+    },
+    {
+        "id": 409120429,
+        "title": "NewList1",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-11-01T08:10:21.274Z",
+        "type": "list"
+    },
+    {
+        "id": 409132620,
+        "title": "NewList1",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-11-01T11:48:44.252Z",
+        "type": "list"
+    }
+]
+2019-11-01 17:18:39 INFO  RestAssured:94 - passed@GetallList
+2019-11-01 17:18:39 INFO  RestAssured:42 - SpecificList@request
+2019-11-01 17:18:39 INFO  RestAssured:45 - RequestCreated
+2019-11-01 17:18:39 INFO  RestAssured:105 - getting response
+2019-11-01 17:18:40 INFO  RestAssured:107 - response{
+    "id": 409132620,
+    "title": "NewList1",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T11:48:44.252Z",
+    "type": "list"
+}
+2019-11-01 17:18:40 INFO  RestAssured:109 - passed@SpecificList
+2019-11-01 17:18:40 INFO  RestAssured:49 - Update@request
+2019-11-01 17:18:40 INFO  RestAssured:54 - RequestCreated
+2019-11-01 17:18:40 INFO  RestAssured:136 - getting response
+2019-11-01 17:18:41 INFO  RestAssured:138 - response{
+    "id": 409132620,
+    "title": "UpdatedList",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T11:48:44.252Z",
+    "type": "list"
+}
+2019-11-01 17:18:41 INFO  RestAssured:140 - passed@UpdatePatchList
+2019-11-01 17:18:41 INFO  RestAssured:71 - updateTask@request
+2019-11-01 17:18:41 INFO  RestAssured:76 - RequestCreated
+2019-11-01 17:18:41 INFO  RestAssured:197 - getting response
+2019-11-01 17:18:43 INFO  RestAssured:199 - response{
+    "id": 5547863675,
+    "created_at": "2019-11-01T11:48:46.508Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409132620,
+    "revision": 2,
+    "title": "UpdatedTask",
+    "type": "task"
+}
+2019-11-01 17:18:43 INFO  RestAssured:201 - passed@PatchTask
+2019-11-01 17:18:43 INFO  RestAssured:49 - Update@request
+2019-11-01 17:18:43 INFO  RestAssured:54 - RequestCreated
+2019-11-01 17:18:43 INFO  RestAssured:151 - getting response
+2019-11-01 17:18:44 INFO  RestAssured:153 - response{
+    "id": 409132620,
+    "title": "UpdatedList",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 5,
+    "created_at": "2019-11-01T11:48:44.252Z",
+    "type": "list"
+}
+2019-11-01 17:18:44 INFO  RestAssured:155 - passed@UpdatePutList
+2019-11-01 17:18:44 INFO  RestAssured:71 - updateTask@request
+2019-11-01 17:18:44 INFO  RestAssured:76 - RequestCreated
+2019-11-01 17:18:44 INFO  RestAssured:214 - getting response
+2019-11-01 17:18:46 INFO  RestAssured:216 - response{
+    "id": 5547863675,
+    "created_at": "2019-11-01T11:48:46.508Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409132620,
+    "revision": 3,
+    "title": "UpdatedTask",
+    "type": "task"
+}
+2019-11-01 17:18:46 INFO  RestAssured:218 - passed@PutTask
+2019-11-01 17:18:46 INFO  RestAssured:79 - DeleteTask@request
+2019-11-01 17:18:46 INFO  RestAssured:83 - RequestCreated
+2019-11-01 17:18:46 INFO  RestAssured:231 - getting response
+2019-11-01 17:18:47 INFO  RestAssured:233 - response
+2019-11-01 17:18:47 INFO  RestAssured:235 - passed@DeleteTask
+2019-11-01 17:18:47 INFO  RestAssured:57 - Delete@request
+2019-11-01 17:18:47 INFO  RestAssured:61 - RequestCreated
+2019-11-01 17:18:47 INFO  RestAssured:166 - getting response
+2019-11-01 17:18:48 INFO  RestAssured:168 - response
+2019-11-01 17:18:48 INFO  RestAssured:170 - passed@DeleteList
+2019-11-01 18:03:45 INFO  RestAssured:47 - CreateList@request
+2019-11-01 18:03:46 INFO  RestAssured:51 - RequestCreated
+2019-11-01 18:03:46 INFO  RestAssured:143 - getting response
+2019-11-01 18:03:49 INFO  RestAssured:146 - response{
+    "id": 409135255,
+    "title": "NewList1",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:33:58.168Z",
+    "type": "list"
+}
+2019-11-01 18:03:49 INFO  RestAssured:149 - passed@CreateList
+2019-11-01 18:03:50 INFO  RestAssured:79 - createTask@request
+2019-11-01 18:03:50 INFO  RestAssured:83 - RequestCreated
+2019-11-01 18:03:50 INFO  RestAssured:211 - getting response
+2019-11-01 18:03:51 INFO  RestAssured:214 - response{
+    "id": 5547982221,
+    "created_at": "2019-11-01T12:34:00.726Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409135255,
+    "revision": 1,
+    "title": "NewTask",
+    "type": "task"
+}
+2019-11-01 18:03:51 INFO  RestAssured:217 - passed@CreateTask
+2019-11-01 18:03:52 INFO  RestAssured:41 - GetallList@request
+2019-11-01 18:03:52 INFO  RestAssured:44 - RequestCreated
+2019-11-01 18:03:52 INFO  RestAssured:109 - getting response
+2019-11-01 18:03:53 INFO  RestAssured:112 - response[
+    {
+        "id": 408408620,
+        "title": "Grocery",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 4,
+        "created_at": "2019-10-23T09:20:48.453Z",
+        "type": "list"
+    },
+    {
+        "id": 409120429,
+        "title": "NewList1",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-11-01T08:10:21.274Z",
+        "type": "list"
+    },
+    {
+        "id": 409135255,
+        "title": "NewList1",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-11-01T12:33:58.168Z",
+        "type": "list"
+    }
+]
+2019-11-01 18:03:53 INFO  RestAssured:115 - passed@GetallList
+2019-11-01 18:03:53 INFO  RestAssured:54 - SpecificList@request
+2019-11-01 18:03:53 INFO  RestAssured:58 - RequestCreated
+2019-11-01 18:03:53 INFO  RestAssured:126 - getting response
+2019-11-01 18:03:54 INFO  RestAssured:129 - response{
+    "id": 409135255,
+    "title": "NewList1",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:33:58.168Z",
+    "type": "list"
+}
+2019-11-01 18:03:54 INFO  RestAssured:132 - passed@SpecificList
+2019-11-01 18:03:54 INFO  RestAssured:62 - Update@request
+2019-11-01 18:03:54 INFO  RestAssured:68 - RequestCreated
+2019-11-01 18:03:54 INFO  RestAssured:161 - getting response
+2019-11-01 18:03:56 INFO  RestAssured:164 - response{
+    "id": 409135255,
+    "title": "UpdatedList",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:33:58.168Z",
+    "type": "list"
+}
+2019-11-01 18:03:56 INFO  RestAssured:167 - passed@UpdatePatchList
+2019-11-01 18:03:56 INFO  RestAssured:87 - updateTask@request
+2019-11-01 18:03:56 INFO  RestAssured:93 - RequestCreated
+2019-11-01 18:03:56 INFO  RestAssured:230 - getting response
+2019-11-01 18:03:57 INFO  RestAssured:233 - response{
+    "id": 5547982221,
+    "created_at": "2019-11-01T12:34:00.726Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409135255,
+    "revision": 2,
+    "title": "UpdatedTask",
+    "type": "task"
+}
+2019-11-01 18:03:57 INFO  RestAssured:236 - passed@PatchTask
+2019-11-01 18:03:57 INFO  RestAssured:62 - Update@request
+2019-11-01 18:03:57 INFO  RestAssured:68 - RequestCreated
+2019-11-01 18:03:57 INFO  RestAssured:178 - getting response
+2019-11-01 18:03:59 INFO  RestAssured:181 - response{
+    "id": 409135255,
+    "title": "UpdatedList",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 5,
+    "created_at": "2019-11-01T12:33:58.168Z",
+    "type": "list"
+}
+2019-11-01 18:03:59 INFO  RestAssured:184 - passed@UpdatePutList
+2019-11-01 18:03:59 INFO  RestAssured:87 - updateTask@request
+2019-11-01 18:03:59 INFO  RestAssured:93 - RequestCreated
+2019-11-01 18:03:59 INFO  RestAssured:249 - getting response
+2019-11-01 18:04:00 INFO  RestAssured:252 - response{
+    "id": 5547982221,
+    "created_at": "2019-11-01T12:34:00.726Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409135255,
+    "revision": 3,
+    "title": "UpdatedTask",
+    "type": "task"
+}
+2019-11-01 18:04:00 INFO  RestAssured:255 - passed@PutTask
+2019-11-01 18:04:00 INFO  RestAssured:96 - DeleteTask@request
+2019-11-01 18:04:00 INFO  RestAssured:101 - RequestCreated
+2019-11-01 18:04:00 INFO  RestAssured:268 - getting response
+2019-11-01 18:04:02 INFO  RestAssured:271 - response
+2019-11-01 18:04:02 INFO  RestAssured:274 - passed@DeleteTask
+2019-11-01 18:04:02 INFO  RestAssured:71 - Delete@request
+2019-11-01 18:04:02 INFO  RestAssured:76 - RequestCreated
+2019-11-01 18:04:02 INFO  RestAssured:195 - getting response
+2019-11-01 18:04:03 INFO  RestAssured:198 - response
+2019-11-01 18:04:03 INFO  RestAssured:201 - passed@DeleteList
+2019-11-01 18:06:00 INFO  RestAssured:47 - CreateList@request
+2019-11-01 18:06:01 INFO  RestAssured:51 - RequestCreated
+2019-11-01 18:06:01 INFO  RestAssured:143 - getting response
+2019-11-01 18:06:04 INFO  RestAssured:146 - response{
+    "id": 409135383,
+    "title": "NewList1",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 1,
+    "created_at": "2019-11-01T12:36:13.439Z",
+    "type": "list"
+}
+2019-11-01 18:06:04 INFO  RestAssured:149 - passed@CreateList
+2019-11-01 18:06:06 INFO  RestAssured:79 - createTask@request
+2019-11-01 18:06:06 INFO  RestAssured:83 - RequestCreated
+2019-11-01 18:06:06 INFO  RestAssured:211 - getting response
+2019-11-01 18:06:07 INFO  RestAssured:214 - response{
+    "id": 5547987977,
+    "created_at": "2019-11-01T12:36:16.172Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409135383,
+    "revision": 1,
+    "title": "NewTask",
+    "type": "task"
+}
+2019-11-01 18:06:07 INFO  RestAssured:217 - passed@CreateTask
+2019-11-01 18:06:07 INFO  RestAssured:41 - GetallList@request
+2019-11-01 18:06:07 INFO  RestAssured:44 - RequestCreated
+2019-11-01 18:06:07 INFO  RestAssured:109 - getting response
+2019-11-01 18:06:09 INFO  RestAssured:112 - response[
+    {
+        "id": 408408620,
+        "title": "Grocery",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "inbox",
+        "public": false,
+        "revision": 4,
+        "created_at": "2019-10-23T09:20:48.453Z",
+        "type": "list"
+    },
+    {
+        "id": 409120429,
+        "title": "NewList1",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-11-01T08:10:21.274Z",
+        "type": "list"
+    },
+    {
+        "id": 409135383,
+        "title": "NewList1",
+        "owner_type": "user",
+        "owner_id": 96532670,
+        "list_type": "list",
+        "public": false,
+        "revision": 2,
+        "created_at": "2019-11-01T12:36:13.439Z",
+        "type": "list"
+    }
+]
+2019-11-01 18:06:09 INFO  RestAssured:115 - passed@GetallList
+2019-11-01 18:06:09 INFO  RestAssured:54 - SpecificList@request
+2019-11-01 18:06:09 INFO  RestAssured:58 - RequestCreated
+2019-11-01 18:06:09 INFO  RestAssured:126 - getting response
+2019-11-01 18:06:10 INFO  RestAssured:129 - response{
+    "id": 409135383,
+    "title": "NewList1",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 2,
+    "created_at": "2019-11-01T12:36:13.439Z",
+    "type": "list"
+}
+2019-11-01 18:06:10 INFO  RestAssured:132 - passed@SpecificList
+2019-11-01 18:06:10 INFO  RestAssured:62 - Update@request
+2019-11-01 18:06:10 INFO  RestAssured:68 - RequestCreated
+2019-11-01 18:06:10 INFO  RestAssured:161 - getting response
+2019-11-01 18:06:11 INFO  RestAssured:164 - response{
+    "id": 409135383,
+    "title": "UpdatedList",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 3,
+    "created_at": "2019-11-01T12:36:13.439Z",
+    "type": "list"
+}
+2019-11-01 18:06:11 INFO  RestAssured:167 - passed@UpdatePatchList
+2019-11-01 18:06:12 INFO  RestAssured:87 - updateTask@request
+2019-11-01 18:06:12 INFO  RestAssured:93 - RequestCreated
+2019-11-01 18:06:12 INFO  RestAssured:230 - getting response
+2019-11-01 18:06:13 INFO  RestAssured:233 - response{
+    "id": 5547987977,
+    "created_at": "2019-11-01T12:36:16.172Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409135383,
+    "revision": 2,
+    "title": "UpdatedTask",
+    "type": "task"
+}
+2019-11-01 18:06:13 INFO  RestAssured:236 - passed@PatchTask
+2019-11-01 18:06:13 INFO  RestAssured:62 - Update@request
+2019-11-01 18:06:13 INFO  RestAssured:68 - RequestCreated
+2019-11-01 18:06:13 INFO  RestAssured:178 - getting response
+2019-11-01 18:06:14 INFO  RestAssured:181 - response{
+    "id": 409135383,
+    "title": "UpdatedList",
+    "owner_type": "user",
+    "owner_id": 96532670,
+    "list_type": "list",
+    "public": false,
+    "revision": 5,
+    "created_at": "2019-11-01T12:36:13.439Z",
+    "type": "list"
+}
+2019-11-01 18:06:14 INFO  RestAssured:184 - passed@UpdatePutList
+2019-11-01 18:06:15 INFO  RestAssured:87 - updateTask@request
+2019-11-01 18:06:15 INFO  RestAssured:93 - RequestCreated
+2019-11-01 18:06:15 INFO  RestAssured:249 - getting response
+2019-11-01 18:06:16 INFO  RestAssured:252 - response{
+    "id": 5547987977,
+    "created_at": "2019-11-01T12:36:16.172Z",
+    "created_by_id": 96532670,
+    "completed": false,
+    "starred": false,
+    "list_id": 409135383,
+    "revision": 3,
+    "title": "UpdatedTask",
+    "type": "task"
+}
+2019-11-01 18:06:16 INFO  RestAssured:255 - passed@PutTask
+2019-11-01 18:06:16 INFO  RestAssured:96 - DeleteTask@request
+2019-11-01 18:06:16 INFO  RestAssured:101 - RequestCreated
+2019-11-01 18:06:16 INFO  RestAssured:268 - getting response
+2019-11-01 18:06:18 INFO  RestAssured:271 - response
+2019-11-01 18:06:18 INFO  RestAssured:274 - passed@DeleteTask
+2019-11-01 18:06:18 INFO  RestAssured:71 - Delete@request
+2019-11-01 18:06:18 INFO  RestAssured:76 - RequestCreated
+2019-11-01 18:06:18 INFO  RestAssured:195 - getting response
+2019-11-01 18:06:19 INFO  RestAssured:198 - response
+2019-11-01 18:06:19 INFO  RestAssured:201 - passed@DeleteList

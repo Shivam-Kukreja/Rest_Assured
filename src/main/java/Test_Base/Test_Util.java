@@ -46,6 +46,7 @@ public class Test_Util {
 		}
 		else if(req.equalsIgnoreCase("UpdatePatchTask") || req.equalsIgnoreCase("UpdatePutTask")) {
 			body.put("revision", Integer.parseInt(obj1.exceldata("Sheet1",1,6)));
+			body.put("title", obj1.exceldata("Sheet1",1,7));
 			return body;
 		}
 		return body;
